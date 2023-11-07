@@ -11,7 +11,7 @@ body{
 .img-container{
     width: 60%;
     min-height: 70vh;
-    background: url("images/1.JPG") center/cover fixed no-repeat;
+    background: url("images/1.png") center/cover fixed no-repeat;
     border: 0.5rem solid orange;
     border-radius: 0.5rem;
     position: relative;

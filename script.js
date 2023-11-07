@@ -50,7 +50,7 @@
                     counter = pictures.length -  1;
 
                 }
-                imgDiv.style.background = `url('images/${pictures.at(counter)}.JPG') center/cover fixed no-repeat`;
+                imgDiv.style.background = `url('images/${pictures.at(counter)}.png') center/cover fixed no-repeat`;
             }
             if(button.classList.contains("btn-right")){
                 console.log(this);
@@ -59,7 +59,7 @@
                     counter = 0;
 
                 }
-                imgDiv.style.background = `url('images/${pictures[counter]}.JPG') center/cover fixed no-repeat`;
+                imgDiv.style.background = `url('images/${pictures[counter]}.png') center/cover fixed no-repeat`;
             }
         });
     });
